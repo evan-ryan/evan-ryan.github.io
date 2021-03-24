@@ -13,6 +13,9 @@ color: white;
 text-transform: uppercase;
 font-weight: normal;
 }
+h2 {
+   color: white;
+}
 img {
 width: 100%;
 }
