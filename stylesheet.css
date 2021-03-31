@@ -20,14 +20,14 @@ img {
 width: 100%;
 }
 .img1 {
-border:5px dotted black;
+border:5px double black;
 }
 .img3 {
 border:5px double black;
 }
 }
 .img2 {
-border:5px solid black;
+border:5px double black;
 }
 .nav-bar {
 list-style-type: none;
