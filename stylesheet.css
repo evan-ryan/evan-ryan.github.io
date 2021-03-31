@@ -6,7 +6,7 @@ color: #878787;
 margin: 0;
 font-family: sans-serif;
 text-align: center;
-background-image: url("imgs/sky.jpg");
+background-image: url("imgs/sky.jpg") no-repeat center;
 background-size: cover;
 }
 h1 {
