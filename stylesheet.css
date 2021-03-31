@@ -6,6 +6,7 @@ color: #878787;
 margin: 0;
 font-family: sans-serif;
 text-align: center;
+background: url("imgs/sky.jpg") no-repeat center;
 }
 h1 {
 font-size: 75px;
@@ -63,7 +64,6 @@ padding: 40px;
 width: 80%;
 margin: auto;
 display: flex;
-background: url("imgs/sky.jpg") no-repeat center;
 }
 .card {
 width: 100%;
