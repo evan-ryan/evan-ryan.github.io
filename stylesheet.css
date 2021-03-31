@@ -63,7 +63,7 @@ padding: 40px;
 width: 80%;
 margin: auto;
 display: flex;
-background: url("imgs/sky.jpg");
+background: url("imgs/sky.jpg") no-repeat center;
 }
 .card {
 width: 100%;
