@@ -1,8 +1,63 @@
 *{
 box-sizing: border-box;
 }
+@media only screen and (max-width: 600px) {
+  	body {
+  		margin: 0;
+		font-family: sans-serif;
+		text-align: center;
+		background-image: url("imgs/sky.jpg");
+		background-size: cover;
+	}
+	
+	.nav-bar {
+		display: flex;
+		flex-direction: column;
+		
+		
+		float: left;
+		justify-content: space-between;
+	}
+	.nav-bar > li {
+		margin-bottom: 3px;
+		overflow: hidden;
+		text-align: center;
+		
+	}
+	.nav-bar-links {
+		
+
+	}
+	.nav-bar-list {
+		background-color: lightgrey;
+		background-position: center;
+		width: 300%;
+		justify-content: space-between;
+		
+	}
+	.box {
+		display: flex;
+		flex-direction: column;
+
+	}
+	.contactcard {
+		display: flex;
+		flex-direction: column;
+	}
+	.main-header {
+		text-align: center;
+		padding-top: 200px;
+		height: 850px;
+		background: url("imgs/valley.jpg") no-repeat center;
+		background-size: cover;
+	}
+	.intro {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+}
 body {
-color: #878787;
 margin: 0;
 font-family: sans-serif;
 text-align: center;
@@ -17,18 +72,31 @@ font-weight: normal;
 }
 h2 {
 color: white;
+padding-top: 15px;
 }
 img {
 width: 100%;
 }
-.img1 {
+.indeximg1 {
 border:5px double black;
 }
-.img3 {
+.indeximg2 {
 border:5px double black;
 }
-.img2 {
+.indeximg3 {
 border:5px double black;
+}
+.exploreimg1 {
+border:5px inset black;
+width: 89.5%;
+}
+.exploreimg2 {
+border:5px inset black;
+}
+.contactimg1 {
+border:5px inset black;
+width: 89.5%;
+margin-left: 50px;
 }
 .nav-bar {
 list-style-type: none;
@@ -50,6 +118,22 @@ height: 850px;
 background: url("imgs/valley.jpg") no-repeat center;
 background-size: cover;
 }
+.main-headerexplore {
+padding-top: 200px;
+height: 850px;
+background: url("imgs/mtwashington.jpg") no-repeat center;
+background-size: cover;
+color: white;
+}
+.main-headercontact {
+padding-top: 50px;
+height: 300px;
+background: url("imgs/clouds.jpg") no-repeat center;
+background-size: cover;
+color: white;
+text-align: center;
+vertical-align: center;
+}
 .title {
 color: white;
 font-size: 1.5em;
@@ -66,12 +150,33 @@ width: 80%;
 margin: auto;
 display: flex;
 }
-.card {
+.indexcard {
 width: 100%;
 padding: 20px;
 text-align: left;
 }
+.explorecard {
+width: 100%;
+padding: 20px;
+text-align: left;
+background-color: white;
+border-radius: 30px;
+box-shadow: 25px 25px grey;
+text-decoration: none
+}
+.contactcard {
+width: 60%;
+padding: 10px;
+text-align: left;
+background-color: white;
+border-radius: 30px;
+box-shadow: 25px 25px grey;
+text-decoration: none
+margin: auto;
+margin-left: 300px;
+}
 .footer {
 font-weight: bold;
 color: black;
+padding-top:10px;
 }
