@@ -57,6 +57,16 @@ box-sizing: border-box;
 		background: url("imgs/valley.jpg") no-repeat center;
 		background-size: cover;
 	}
+	.main-headerexploreh2 {
+		padding-top: 45%;
+	}
+	.contacth1 {
+		padding-top: 5%;
+	}
+	.contacth2 {
+		padding-bottom: 5%;
+	}
+
 	.intro {
 		display: flex;
 		flex-direction: column;
