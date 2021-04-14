@@ -50,6 +50,12 @@ box-sizing: border-box;
 	
 	margin: 0;
 	}
+	.indexcard {
+	display: flex;
+	flex-direction: column;
+	
+	margin-left: 7%;
+	}
 	.main-header {
 		text-align: center;
 		padding-top: 200px;
@@ -106,12 +112,18 @@ width: 100%;
 }
 .indeximg1 {
 border:5px double black;
+width: 82%;
+height: auto;
 }
 .indeximg2 {
 border:5px double black;
+width: 91%;
+height: auto;
 }
 .indeximg3 {
 border:5px double black;
+width: 77%;
+height: auto;
 }
 .exploreimg1 {
 border:5px inset black;
