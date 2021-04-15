@@ -8,9 +8,9 @@ box-sizing: border-box;
 		text-align: center;
 		background-image: url("imgs/sky.jpg");
 		background-size: cover;
+		background-image: no-repeat;
 		height: auto;
 	}
-	
 	.nav-bar {
 		display: flex;
 		flex-direction: column;
