@@ -8,11 +8,11 @@ box-sizing: border-box;
 		text-align: center;
 		background-image: url("imgs/sky.jpg");
 		background-size: cover;
-		background-image: no-repeat;
-		height: auto;
+		
+		min-height: 100%;
 	}
 	.htmlcontact {
-		padding-bottom: 20%;
+		height: 100%;
 
 	}
 	.nav-bar {
@@ -92,6 +92,7 @@ box-sizing: border-box;
 	h2 {
 		height: 25%;
 	}
+	
 }
 body {
 margin: 0;
@@ -99,6 +100,7 @@ font-family: sans-serif;
 text-align: center;
 background-image: url("imgs/sky.jpg");
 background-size: cover;
+min-height: 100%;
 }
 h1 {
 font-size: 75px;
@@ -112,6 +114,18 @@ padding-top: 15px;
 }
 img {
 width: 100%;
+}
+.htmlcontact {
+height: 100%;
+}
+.footercontact {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+text-align: center;
+margin-top: 20%;
+
 }
 .indeximg1 {
 border:5px double black;
