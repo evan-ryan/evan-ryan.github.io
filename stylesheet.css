@@ -92,9 +92,8 @@ body {
 	background-size: cover;
 	height: 100%;
 }
-
 .htmlcontact {
-	height: 100%;
+	min-height: 100%;
 	margin: 0;
 }
 
