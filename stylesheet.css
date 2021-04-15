@@ -15,6 +15,10 @@
 		min-height: 100%;
 		margin: 0;
 	}
+	.indexhtml {
+		min-height: 100%;
+		margin: 0;
+	}
 	.nav-bar {
 		display: flex;
 		flex-direction: column;
@@ -96,7 +100,10 @@ body {
 	min-height: 100%;
 	margin: 0;
 }
-
+.indexhtml {
+	min-height: 100%;
+	margin: 0;
+}
 h1 {
 	font-size: 75px;
 	color: white;
