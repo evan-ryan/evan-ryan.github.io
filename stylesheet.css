@@ -11,6 +11,10 @@ box-sizing: border-box;
 		height: 100%;
 		
 	}
+	.htmlcontact {
+		height: 100%;
+		margin: 0;
+	}
 	.nav-bar {
 		display: flex;
 		flex-direction: column;
@@ -97,6 +101,10 @@ text-align: center;
 background-image: url("imgs/sky.jpg");
 background-size: cover;
 height: 100%;
+}
+.htmlcontact {
+height: 100%;
+margin: 0;
 }
 h1 {
 font-size: 75px;
