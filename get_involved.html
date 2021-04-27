@@ -61,13 +61,13 @@ display: none;
       <i class="fa fa-bars"></i>
     </a>
     <a href="#home" class="w3-bar-item w3-hover-green w3-white w3-button"><i class="fa fa-home"></i> GET INVOLVED</a>
-    <a href="#events" class="w3-bar-item w3-hover-green w3-white w3-button w3-hide-small"><i class="fa fa-user"></i> EVENTS</a>
-    <a href="#fourth" class="w3-bar-item w3-hover-green w3-white w3-button w3-hide-small"><i class="fa fa-tree"></i> FOURTH OF JULY</a>
+    <a href="#events" class="w3-bar-item w3-hover-green w3-white w3-button w3-hide-small"><i class="fa fa-flag"></i> EVENTS</a>
+    <a href="#fourth" class="w3-bar-item w3-hover-green w3-white w3-button w3-hide-small"><i class="fa fa-soccer-ball-o"></i> FOURTH OF JULY</a>
     <a href="#schedule" class="w3-bar-item w3-hover-green w3-white w3-button w3-hide-small"><i class="fa fa-calendar"></i> SCHEDULE</a>
     <div class="w3-dropdown-hover w3-hide-small">
-      <a href="#" class="w3-bar-item w3-hover-green w3-white w3-button w3-hide-small"><i class="fa fa-caret-down"></i> MORE</a>
+      <a href="" class="w3-bar-item w3-hover-green w3-white w3-button w3-hide-small"><i class="fa fa-caret-down"></i> MORE</a>
         <div class="w3-dropdown-content w3-bar-block">
-          <a href="#" class="w3-bar-item w3-hover-green w3-white w3-button w3-hide-small"><i class="fa fa-caret-down"></i> MORE</a>
+          <a href="" class="w3-bar-item w3-hover-green w3-white w3-button w3-hide-small"><i class="fa fa-caret-down"></i> MORE</a>
           <a href="index.html" class="w3-bar-item w3-hover-green w3-white w3-button"><i class="fa fa-home"></i> FRONT PAGE</a>
         </div>
     </div>
@@ -90,6 +90,15 @@ display: none;
   </div>
 </div>
 
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display=&#39;none&#39;">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img src='test' id="img01" class="w3-image" alt="test">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
 <!-- Events Section -->
 <div class="w3-content w3-container w3-padding-64" id="events">
   <h3 class="w3-center">EVENTS</h3>
@@ -97,7 +106,7 @@ display: none;
   <p>At Great Hikes NE we are constatnly holding different types of events to keep the community engaged and involved. Some of these events include barbeques, camping, stargazing, and hiking seminars. Look out for our yearly Fourth of July Hike Weekend! We pride ourselves on having a full yearly schedule so there are always opportunities to get involved. Any season, rain or shine, there is always montly events that anyone is welcome to attend. Keeping an active community of like minded hikers is what we strive for a Great Hikes NE. As we grow larger we will be looking to set up travel trips where we can head outside the New England region for some good old fashion hiking roadtrips.</p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
-      <img src="./imgs/nature1.jpg" class="w3-round w3-image w3-hover-opacity" alt="Photo of Me" width="500" height="333">
+      <img src="./imgs/nature1.jpg" onclick="onClick(this)" class="w3-round w3-image w3-hover-opacity" alt="Wooded Bridge" width="500" height="333">
     </div>
 
     <!-- Hide this text on small devices -->
@@ -109,7 +118,7 @@ display: none;
   <p class="w3-large w3-center w3-padding-16">Our Staff is Always here to help, feel free to reach out at any time!</p>
   <ul class="w3-ul w3-card-4">
       <li class="w3-bar w3-hover-green">
-        <img src="./imgs/evan1.jpg" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
+        <img src="./imgs/evan1.jpg" alt="evan" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
         <div class="w3-bar-item">
           <span class="w3-large">Evan</span><br>
           <span>Founder | <i class="fa fa-phone"></i> 603-123-5623 | <i class="fa fa-envelope"></i> evan@greathikesne.com</span>
@@ -117,7 +126,7 @@ display: none;
       </li>
 
       <li class="w3-bar w3-hover-green">
-        <img src="./imgs/phil.jpg" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
+        <img src="./imgs/phil.jpg" alt="phil" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
         <div class="w3-bar-item">
           <span class="w3-large">Phillip</span><br>
           <span>Event Coordinator | <i class="fa fa-phone"></i> 603-125-9087 | <i class="fa fa-envelope"></i> phillip@greathikesne.com</span>
@@ -125,14 +134,14 @@ display: none;
       </li>
 
       <li class="w3-bar w3-hover-green">
-        <img src="./imgs/jon.jpg" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
+        <img src="./imgs/jon.jpg" alt="jon" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
         <div class="w3-bar-item">
           <span class="w3-large">Jon</span><br>
           <span>Trail Guide | <i class="fa fa-phone"></i> 603-495-1230 | <i class="fa fa-envelope"></i> jon@greathikesne.com</span>
         </div>
       </li>
       <li class="w3-bar w3-hover-green">
-        <img src="./imgs/sean.jpg" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
+        <img src="./imgs/sean.jpg" alt="sean" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
         <div class="w3-bar-item">
           <span class="w3-large">Sean</span><br>
           <span>Youth Counselor | <i class="fa fa-phone"></i> 501-400-1235 | <i class="fa fa-envelope"></i> sean@greathikesne.com</span>
